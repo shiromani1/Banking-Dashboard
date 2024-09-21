@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: beige;
+}
+
+header {
+  background-color: aliceblue;
+  padding: 2px;
+  text-align: center;
+}
+
+#balance{
+  text-align: center;
+  margin-left: 15px;
+  width: 500px;
+  background-color: #ccc;
+}
+
+div {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width:50%;
+  margin-left:25%;
+  
+}
+
+h1, h2 {
+  margin-top: 0;
+}
+
+
+.main{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 500px;
+}
+
+#deposit,#withdrawal{
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+  background-color: #f9f9f9;
+  
+  
+
+}
+
+button {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+footer {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+
+}
+
+
+.img{
+  width: 500px;
+  border-radius: 45px;
+}
